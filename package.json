@@ -1,0 +1,7 @@
+{
+  "name": "ecs-api-reference",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  }
+}
