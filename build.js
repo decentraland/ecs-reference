@@ -1,10 +1,13 @@
-var versionsToDocument = ["5.0", "6.0"];
+var versionsToDocument = ["5.0", "6.0", "latest"];
 
 var { spawnSync } = require("child_process");
 var { writeFileSync } = require("fs");
 
 function installPackage(version) {
-  const package = `decentraland-ecs@~${version}`;
+  const versionToUse = /^[0-9.^~]+$/.test(version) ? "~" + version : version;
+  const package = `decentraland-ecs@${versionToUse}`;
+  console.log(`> npm rm decentraland-ecs`);
+  spawnSync("npm", ["rm", "decentraland-ecs"]);
   console.log(`> npm install ${package} --no-save`);
   spawnSync("npm", ["install", package, "--no-save"]);
 }
