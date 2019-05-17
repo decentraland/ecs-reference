@@ -5,7 +5,7 @@
 
 **Signature:**
 ```javascript
-onRemoveEntity(entity: Entity): void;
+onRemoveEntity(entity: IEntity): void;
 ```
 **Returns:** `void`
 
@@ -13,5 +13,5 @@ onRemoveEntity(entity: Entity): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
+|  `entity` | `IEntity` |  |
 

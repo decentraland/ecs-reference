@@ -6,7 +6,7 @@ Gets a boolean indicating if the given quaternion is identity
 
 **Signature:**
 ```javascript
-static IsIdentity(quaternion: Quaternion): boolean;
+static IsIdentity(quaternion: ReadOnlyQuaternion): boolean;
 ```
 **Returns:** `boolean`
 
@@ -16,5 +16,5 @@ true if the quaternion is identity
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `quaternion` | `Quaternion` | defines the quaternion to check |
+|  `quaternion` | `ReadOnlyQuaternion` | defines the quaternion to check |
 

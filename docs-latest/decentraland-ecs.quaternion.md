@@ -71,7 +71,6 @@ Class used to store quaternion data [https://en.wikipedia.org/wiki/Quaternion](h
 |  [`Slerp(left, right, amount)`](./decentraland-ecs.quaternion.slerp.md) |  | `Quaternion` | Interpolates between two quaternions |
 |  [`SlerpToRef(left, right, amount, result)`](./decentraland-ecs.quaternion.slerptoref.md) |  | `void` | Interpolates between two quaternions and stores it into a target quaternion |
 |  [`subtract(other)`](./decentraland-ecs.quaternion.subtract.md) |  | `Quaternion` | Subtract two quaternions |
-|  [`toEulerAnglesToRef(result, order)`](./decentraland-ecs.quaternion.toeuleranglestoref.md) |  | `Quaternion` | Sets the given vector3 "result" with the Euler angles translated from the current quaternion |
 |  [`toRotationMatrix(result)`](./decentraland-ecs.quaternion.torotationmatrix.md) |  | `Quaternion` | Updates the given rotation matrix with the current quaternion values |
 |  [`Zero()`](./decentraland-ecs.quaternion.zero.md) |  | `Quaternion` | Creates an empty quaternion |
 

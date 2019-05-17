@@ -6,5 +6,5 @@ Stores the refracted light information in a texture.
 
 **Signature:**
 ```javascript
-refractionTexture: string
+refractionTexture: Texture
 ```

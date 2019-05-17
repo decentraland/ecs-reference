@@ -13,5 +13,4 @@
 |  [`radiusTop`](./decentraland-ecs.coneshape.radiustop.md) |  | `number` | The radius of the top of a truncated cone. Defaults to 0. |
 |  [`segmentsHeight`](./decentraland-ecs.coneshape.segmentsheight.md) |  | `number` | Sets the number of rings along the cone height (positive integer). Defaults to 1. |
 |  [`segmentsRadial`](./decentraland-ecs.coneshape.segmentsradial.md) |  | `number` | Sets the number of cone sides (positive integer). Defaults to 36. |
-|  [`tag`](./decentraland-ecs.coneshape.tag.md) |  | `string` |  |
 

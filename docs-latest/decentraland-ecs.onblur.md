@@ -8,3 +8,9 @@
 |  --- | --- | --- | --- |
 |  [`type`](./decentraland-ecs.onblur.type.md) |  | `string` |  |
 
+## Methods
+
+|  Method | Access Modifier | Returns | Description |
+|  --- | --- | --- | --- |
+|  [`constructor(callback)`](./decentraland-ecs.onblur.constructor.md) |  |  | Constructs a new instance of the [OnBlur](./decentraland-ecs.onblur.md) class |
+

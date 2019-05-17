@@ -6,7 +6,7 @@ Interpolate between two quaternions using Hermite interpolation
 
 **Signature:**
 ```javascript
-static Hermite(value1: Quaternion, tangent1: Quaternion, value2: Quaternion, tangent2: Quaternion, amount: number): Quaternion;
+static Hermite(value1: ReadOnlyQuaternion, tangent1: ReadOnlyQuaternion, value2: ReadOnlyQuaternion, tangent2: ReadOnlyQuaternion, amount: number): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -16,9 +16,9 @@ the new interpolated quaternion
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `value1` | `Quaternion` | defines first quaternion |
-|  `tangent1` | `Quaternion` | defines the incoming tangent |
-|  `value2` | `Quaternion` | defines second quaternion |
-|  `tangent2` | `Quaternion` | defines the outgoing tangent |
+|  `value1` | `ReadOnlyQuaternion` | defines first quaternion |
+|  `tangent1` | `ReadOnlyQuaternion` | defines the incoming tangent |
+|  `value2` | `ReadOnlyQuaternion` | defines second quaternion |
+|  `tangent2` | `ReadOnlyQuaternion` | defines the outgoing tangent |
 |  `amount` | `number` | defines the target quaternion |
 

@@ -6,7 +6,7 @@ Check if two quaternions are equals
 
 **Signature:**
 ```javascript
-equals(otherQuaternion: Quaternion): boolean;
+equals(otherQuaternion: ReadOnlyQuaternion): boolean;
 ```
 **Returns:** `boolean`
 
@@ -16,5 +16,5 @@ true if the current quaternion and the given one coordinates are strictly equals
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `otherQuaternion` | `Quaternion` | defines the second operand |
+|  `otherQuaternion` | `ReadOnlyQuaternion` | defines the second operand |
 

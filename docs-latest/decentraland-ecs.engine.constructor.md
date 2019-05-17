@@ -6,5 +6,12 @@ Constructs a new instance of the [Engine](./decentraland-ecs.engine.md) class
 
 **Signature:**
 ```javascript
-constructor();
+constructor(rootEntity: IEntity);
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  `rootEntity` | `IEntity` |  |
+

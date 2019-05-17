@@ -5,7 +5,7 @@
 
 **Signature:**
 ```javascript
-addEntity(entity: Entity): void;
+addEntity(entity: IEntity): void;
 ```
 **Returns:** `void`
 
@@ -13,5 +13,5 @@ addEntity(entity: Entity): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
+|  `entity` | `IEntity` |  |
 

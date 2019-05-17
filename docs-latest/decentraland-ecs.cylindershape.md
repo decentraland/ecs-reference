@@ -13,5 +13,4 @@
 |  [`radiusTop`](./decentraland-ecs.cylindershape.radiustop.md) |  | `number` | The radius of the top of the cylinder. Defaults to 0. |
 |  [`segmentsHeight`](./decentraland-ecs.cylindershape.segmentsheight.md) |  | `number` | Sets the number of rings along the cylinder height (positive integer). Defaults to 1. |
 |  [`segmentsRadial`](./decentraland-ecs.cylindershape.segmentsradial.md) |  | `number` | Sets the number of cylinder sides (positive integer). Defaults to 36. |
-|  [`tag`](./decentraland-ecs.cylindershape.tag.md) |  | `string` |  |
 

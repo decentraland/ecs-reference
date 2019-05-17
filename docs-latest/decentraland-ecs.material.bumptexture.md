@@ -6,5 +6,5 @@ Stores surface normal data used to displace a mesh in a texture.
 
 **Signature:**
 ```javascript
-bumpTexture: string
+bumpTexture: Texture
 ```

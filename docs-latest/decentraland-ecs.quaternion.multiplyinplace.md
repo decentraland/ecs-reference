@@ -6,7 +6,7 @@ Updates the current quaternion with the multiplication of itself with the given 
 
 **Signature:**
 ```javascript
-multiplyInPlace(q1: Quaternion): Quaternion;
+multiplyInPlace(q1: ReadOnlyQuaternion): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -16,5 +16,5 @@ the currentupdated quaternion
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `q1` | `Quaternion` | defines the second operand |
+|  `q1` | `ReadOnlyQuaternion` | defines the second operand |
 

@@ -6,7 +6,7 @@ The from quaternion is rotated towards to by an angular step of maxDegreesDelta.
 
 **Signature:**
 ```javascript
-static RotateTowards(from: Quaternion, to: Quaternion, maxDegreesDelta: number): Quaternion;
+static RotateTowards(from: ReadOnlyQuaternion, to: Quaternion, maxDegreesDelta: number): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -14,7 +14,7 @@ static RotateTowards(from: Quaternion, to: Quaternion, maxDegreesDelta: number):
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `from` | `Quaternion` | defines the first quaternion |
+|  `from` | `ReadOnlyQuaternion` | defines the first quaternion |
 |  `to` | `Quaternion` | defines the second quaternion |
 |  `maxDegreesDelta` | `number` | the interval step |
 

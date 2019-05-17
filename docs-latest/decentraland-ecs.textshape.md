@@ -6,12 +6,13 @@
 
 |  Property | Access Modifier | Type | Description |
 |  --- | --- | --- | --- |
+|  [`billboard`](./decentraland-ecs.textshape.billboard.md) |  | `boolean` |  |
 |  [`color`](./decentraland-ecs.textshape.color.md) |  | `Color3` |  |
-|  [`fontFamily`](./decentraland-ecs.textshape.fontfamily.md) |  | `string` |  |
 |  [`fontSize`](./decentraland-ecs.textshape.fontsize.md) |  | `number` |  |
 |  [`fontWeight`](./decentraland-ecs.textshape.fontweight.md) |  | `string` |  |
-|  [`hAlign`](./decentraland-ecs.textshape.halign.md) |  | `string` |  |
 |  [`height`](./decentraland-ecs.textshape.height.md) |  | `number` |  |
+|  [`hTextAlign`](./decentraland-ecs.textshape.htextalign.md) |  | `string` |  |
+|  [`isPickable`](./decentraland-ecs.textshape.ispickable.md) |  | `boolean` |  |
 |  [`lineCount`](./decentraland-ecs.textshape.linecount.md) |  | `number` |  |
 |  [`lineSpacing`](./decentraland-ecs.textshape.linespacing.md) |  | `string` |  |
 |  [`opacity`](./decentraland-ecs.textshape.opacity.md) |  | `number` |  |
@@ -26,10 +27,9 @@
 |  [`shadowColor`](./decentraland-ecs.textshape.shadowcolor.md) |  | `Color3` |  |
 |  [`shadowOffsetX`](./decentraland-ecs.textshape.shadowoffsetx.md) |  | `number` |  |
 |  [`shadowOffsetY`](./decentraland-ecs.textshape.shadowoffsety.md) |  | `number` |  |
-|  [`tag`](./decentraland-ecs.textshape.tag.md) |  | `string` |  |
 |  [`textWrapping`](./decentraland-ecs.textshape.textwrapping.md) |  | `boolean` |  |
-|  [`vAlign`](./decentraland-ecs.textshape.valign.md) |  | `string` |  |
 |  [`value`](./decentraland-ecs.textshape.value.md) |  | `string` |  |
+|  [`vTextAlign`](./decentraland-ecs.textshape.vtextalign.md) |  | `string` |  |
 |  [`width`](./decentraland-ecs.textshape.width.md) |  | `number` |  |
 |  [`zIndex`](./decentraland-ecs.textshape.zindex.md) |  | `number` |  |
 

@@ -6,14 +6,14 @@ Constructs a new instance of the [ComponentRemoved](./decentraland-ecs.component
 
 **Signature:**
 ```javascript
-constructor(entity: Entity, componentName: string, component: ComponentLike);
+constructor(entity: IEntity, componentName: string, component: ComponentLike);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
+|  `entity` | `IEntity` |  |
 |  `componentName` | `string` |  |
 |  `component` | `ComponentLike` |  |
 

@@ -6,5 +6,5 @@ The source of the texture image.
 
 **Signature:**
 ```javascript
-texture: string
+texture: Texture
 ```

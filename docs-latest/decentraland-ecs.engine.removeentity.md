@@ -5,7 +5,7 @@
 
 **Signature:**
 ```javascript
-removeEntity(entity: Entity, removeChildren?: boolean, newParent?: Entity): void;
+removeEntity(entity: IEntity): void;
 ```
 **Returns:** `void`
 
@@ -13,7 +13,5 @@ removeEntity(entity: Entity, removeChildren?: boolean, newParent?: Entity): void
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
-|  `removeChildren` | `boolean` |  |
-|  `newParent` | `Entity` |  |
+|  `entity` | `IEntity` |  |
 

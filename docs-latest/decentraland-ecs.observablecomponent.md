@@ -13,8 +13,10 @@
 
 |  Method | Access Modifier | Returns | Description |
 |  --- | --- | --- | --- |
+|  [`component(target, propertyKey)`](./decentraland-ecs.observablecomponent.component.md) |  | `void` |  |
 |  [`field(target, propertyKey)`](./decentraland-ecs.observablecomponent.field.md) |  | `void` |  |
 |  [`onChange(fn)`](./decentraland-ecs.observablecomponent.onchange.md) |  | `void` |  |
 |  [`readonly(target, propertyKey)`](./decentraland-ecs.observablecomponent.readonly.md) |  | `void` |  |
 |  [`toJSON()`](./decentraland-ecs.observablecomponent.tojson.md) |  | `any` |  |
+|  [`uiValue(target, propertyKey)`](./decentraland-ecs.observablecomponent.uivalue.md) |  | `void` |  |
 

@@ -8,3 +8,9 @@
 |  --- | --- | --- | --- |
 |  [`type`](./decentraland-ecs.onclick.type.md) |  | `string` |  |
 
+## Methods
+
+|  Method | Access Modifier | Returns | Description |
+|  --- | --- | --- | --- |
+|  [`constructor(callback)`](./decentraland-ecs.onclick.constructor.md) |  |  | Constructs a new instance of the [OnClick](./decentraland-ecs.onclick.md) class |
+

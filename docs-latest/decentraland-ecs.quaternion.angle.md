@@ -6,7 +6,7 @@ Returns the angle in degrees between two rotations a and b.
 
 **Signature:**
 ```javascript
-static Angle(quat1: Quaternion, quat2: Quaternion): number;
+static Angle(quat1: ReadOnlyQuaternion, quat2: ReadOnlyQuaternion): number;
 ```
 **Returns:** `number`
 
@@ -14,6 +14,6 @@ static Angle(quat1: Quaternion, quat2: Quaternion): number;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `quat1` | `Quaternion` | defines the first quaternion |
-|  `quat2` | `Quaternion` | defines the second quaternion |
+|  `quat1` | `ReadOnlyQuaternion` | defines the first quaternion |
+|  `quat2` | `ReadOnlyQuaternion` | defines the second quaternion |
 

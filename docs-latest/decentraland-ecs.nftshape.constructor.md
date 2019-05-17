@@ -6,13 +6,12 @@ Constructs a new instance of the [NFTShape](./decentraland-ecs.nftshape.md) clas
 
 **Signature:**
 ```javascript
-constructor(contract: string, tokenId: string);
+constructor(src: string);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `contract` | `string` |  |
-|  `tokenId` | `string` |  |
+|  `src` | `string` |  |
 

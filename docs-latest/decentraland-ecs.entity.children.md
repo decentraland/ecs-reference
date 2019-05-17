@@ -5,5 +5,5 @@
 
 **Signature:**
 ```javascript
-children: Record<string, Entity>
+children: Record<string, IEntity>
 ```

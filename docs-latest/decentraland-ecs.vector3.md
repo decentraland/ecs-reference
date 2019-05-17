@@ -23,6 +23,8 @@ Classed used to store (x,y,z) vector representation A Vector3 is the main object
 |  [`addInPlace(otherVector)`](./decentraland-ecs.vector3.addinplace.md) |  | `Vector3` | Adds the given vector to the current Vector3 |
 |  [`addInPlaceFromFloats(x, y, z)`](./decentraland-ecs.vector3.addinplacefromfloats.md) |  | `Vector3` | Adds the given coordinates to the current Vector3 |
 |  [`addToRef(otherVector, result)`](./decentraland-ecs.vector3.addtoref.md) |  | `Vector3` | Adds the current Vector3 to the given one and stores the result in the vector "result" |
+|  [`applyMatrix4(matrix)`](./decentraland-ecs.vector3.applymatrix4.md) |  | `void` | Multiplies this vector (with an implicit 1 in the 4th dimension) and m, and divides by perspective |
+|  [`applyMatrix4ToRef(matrix, result)`](./decentraland-ecs.vector3.applymatrix4toref.md) |  | `Vector3` | Multiplies this vector (with an implicit 1 in the 4th dimension) and m, and divides by perspective and set the given vector "result" with this result |
 |  [`asArray()`](./decentraland-ecs.vector3.asarray.md) |  | `number[]` | Creates an array containing three elements : the coordinates of the Vector3 |
 |  [`Backward()`](./decentraland-ecs.vector3.backward.md) |  | `Vector3` | Returns a new Vector3 set to (0.0, 0.0, -1.0) |
 |  [`CatmullRom(value1, value2, value3, value4, amount)`](./decentraland-ecs.vector3.catmullrom.md) |  | `Vector3` | Returns a new Vector3 located for "amount" on the CatmullRom interpolation spline defined by the vectors "value1", "value2", "value3", "value4" |
@@ -82,7 +84,7 @@ Classed used to store (x,y,z) vector representation A Vector3 is the main object
 |  [`One()`](./decentraland-ecs.vector3.one.md) |  | `Vector3` | Returns a new Vector3 set to (1.0, 1.0, 1.0) |
 |  [`Right()`](./decentraland-ecs.vector3.right.md) |  | `Vector3` | Returns a new Vector3 set to (1.0, 0.0, 0.0) |
 |  [`rotate(q)`](./decentraland-ecs.vector3.rotate.md) |  | `Vector3` | Rotates the current Vector3 based on the given quaternion |
-|  [`rotateToRef(q, target)`](./decentraland-ecs.vector3.rotatetoref.md) |  | `void` | Rotates current Vector3 based on the given quaternion, but applies the rotation to target Vector3. |
+|  [`rotateToRef(q, result)`](./decentraland-ecs.vector3.rotatetoref.md) |  | `Vector3` | Rotates current Vector3 based on the given quaternion, but applies the rotation to target Vector3. |
 |  [`RotationFromAxis(axis1, axis2, axis3)`](./decentraland-ecs.vector3.rotationfromaxis.md) |  | `Vector3` | Given three orthogonal normalized left-handed oriented Vector3 axis in space (target system), RotationFromAxis() returns the rotation Euler angles (ex : rotation.x, rotation.y, rotation.z) to apply to something in order to rotate it from its local system to the given target system Note: axis1, axis2 and axis3 are normalized during this operation |
 |  [`RotationFromAxisToRef(axis1, axis2, axis3, ref)`](./decentraland-ecs.vector3.rotationfromaxistoref.md) |  | `void` | The same than RotationFromAxis but updates the given ref Vector3 parameter instead of returning a new Vector3 |
 |  [`scale(scale)`](./decentraland-ecs.vector3.scale.md) |  | `Vector3` | Returns a new Vector3 set with the current Vector3 coordinates multiplied by the float "scale" |

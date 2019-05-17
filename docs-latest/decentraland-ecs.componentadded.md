@@ -8,7 +8,7 @@
 |  --- | --- | --- | --- |
 |  [`classId`](./decentraland-ecs.componentadded.classid.md) |  | `number | null` |  |
 |  [`componentName`](./decentraland-ecs.componentadded.componentname.md) |  | `string` |  |
-|  [`entity`](./decentraland-ecs.componentadded.entity.md) |  | `Entity` |  |
+|  [`entity`](./decentraland-ecs.componentadded.entity.md) |  | `IEntity` |  |
 
 ## Methods
 

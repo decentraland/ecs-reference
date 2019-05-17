@@ -6,7 +6,7 @@ Checks if the two quaternions are close to each other
 
 **Signature:**
 ```javascript
-static AreClose(quat0: Quaternion, quat1: Quaternion): boolean;
+static AreClose(quat0: ReadOnlyQuaternion, quat1: ReadOnlyQuaternion): boolean;
 ```
 **Returns:** `boolean`
 
@@ -16,6 +16,6 @@ true if the two quaternions are close to each other
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `quat0` | `Quaternion` | defines the first quaternion to check |
-|  `quat1` | `Quaternion` | defines the second quaternion to check |
+|  `quat0` | `ReadOnlyQuaternion` | defines the first quaternion to check |
+|  `quat1` | `ReadOnlyQuaternion` | defines the second quaternion to check |
 

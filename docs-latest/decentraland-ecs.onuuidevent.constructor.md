@@ -6,12 +6,12 @@ Constructs a new instance of the [OnUUIDEvent](./decentraland-ecs.onuuidevent.md
 
 **Signature:**
 ```javascript
-constructor(callback: (event: IInteractionEvent) => void);
+constructor(callback: (event: IEvents[T]) => void);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `callback` | `(event: IInteractionEvent) => void` |  |
+|  `callback` | `(event: IEvents[T]) => void` |  |
 

@@ -6,7 +6,7 @@
 
 |  Property | Access Modifier | Type | Description |
 |  --- | --- | --- | --- |
-|  [`handlerMap`](./decentraland-ecs.uuideventsystem.handlermap.md) |  | `{`<p/>`        [uuid: string]: OnUUIDEvent;`<p/>`    }` |  |
+|  [`handlerMap`](./decentraland-ecs.uuideventsystem.handlermap.md) |  | `{`<p/>`        [uuid: string]: OnUUIDEvent<any>;`<p/>`    }` |  |
 
 ## Methods
 

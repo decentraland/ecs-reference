@@ -6,13 +6,13 @@ Constructs a new instance of the [ParentChanged](./decentraland-ecs.parentchange
 
 **Signature:**
 ```javascript
-constructor(entity: Entity, parent: Entity);
+constructor(entity: IEntity, parent: IEntity);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
-|  `parent` | `Entity` |  |
+|  `entity` | `IEntity` |  |
+|  `parent` | `IEntity` |  |
 

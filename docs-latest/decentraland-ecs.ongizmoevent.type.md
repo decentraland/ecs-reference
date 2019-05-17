@@ -1,0 +1,11 @@
+[Home](./index) &gt; [decentraland-ecs](./decentraland-ecs.md) &gt; [OnGizmoEvent](./decentraland-ecs.ongizmoevent.md) &gt; [type](./decentraland-ecs.ongizmoevent.type.md)
+
+# OnGizmoEvent.type property
+
+> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+
+
+**Signature:**
+```javascript
+type: string
+```

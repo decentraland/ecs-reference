@@ -55,7 +55,7 @@ Class used to hold a RBG color
 |  [`toGammaSpace()`](./decentraland-ecs.color3.togammaspace.md) |  | `Color3` | Computes a new Color3 converted from the current one to gamma space |
 |  [`toGammaSpaceToRef(convertedColor)`](./decentraland-ecs.color3.togammaspacetoref.md) |  | `Color3` | Converts the Color3 values to gamma space and stores the result in "convertedColor" |
 |  [`toHexString()`](./decentraland-ecs.color3.tohexstring.md) |  | `string` | Compute the Color3 hexadecimal code as a string |
-|  [`toJSON()`](./decentraland-ecs.color3.tojson.md) |  | `string` | Serializes Color3 |
+|  [`toJSON()`](./decentraland-ecs.color3.tojson.md) |  | `{`<p/>`        r: number;`<p/>`        g: number;`<p/>`        b: number;`<p/>`    }` | Serializes Color3 |
 |  [`toLinearSpace()`](./decentraland-ecs.color3.tolinearspace.md) |  | `Color3` | Computes a new Color3 converted from the current one to linear space |
 |  [`toLinearSpaceToRef(convertedColor)`](./decentraland-ecs.color3.tolinearspacetoref.md) |  | `Color3` | Converts the Color3 values to linear space and stores the result in "convertedColor" |
 |  [`toLuminance()`](./decentraland-ecs.color3.toluminance.md) |  | `number` | Returns the luminance value |

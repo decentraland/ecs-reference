@@ -6,5 +6,5 @@ Emissive texture.
 
 **Signature:**
 ```javascript
-emissiveTexture: string
+emissiveTexture: Texture
 ```

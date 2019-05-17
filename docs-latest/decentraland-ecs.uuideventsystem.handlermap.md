@@ -6,6 +6,6 @@
 **Signature:**
 ```javascript
 handlerMap: {
-        [uuid: string]: OnUUIDEvent;
+        [uuid: string]: OnUUIDEvent<any>;
     }
 ```

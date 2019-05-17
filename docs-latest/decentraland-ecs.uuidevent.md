@@ -9,3 +9,9 @@
 |  [`payload`](./decentraland-ecs.uuidevent.payload.md) |  | `T` |  |
 |  [`uuid`](./decentraland-ecs.uuidevent.uuid.md) |  | `string` |  |
 
+## Methods
+
+|  Method | Access Modifier | Returns | Description |
+|  --- | --- | --- | --- |
+|  [`constructor(uuid, payload)`](./decentraland-ecs.uuidevent.constructor.md) |  |  | Constructs a new instance of the [UUIDEvent](./decentraland-ecs.uuidevent.md) class |
+

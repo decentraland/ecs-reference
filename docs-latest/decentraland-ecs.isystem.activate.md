@@ -5,7 +5,7 @@
 
 **Signature:**
 ```javascript
-activate?(engine: Engine): void;
+activate?(engine: IEngine): void;
 ```
 **Returns:** `void`
 
@@ -13,5 +13,5 @@ activate?(engine: Engine): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `engine` | `Engine` |  |
+|  `engine` | `IEngine` |  |
 

@@ -6,7 +6,7 @@ Copy a quaternion to the current one
 
 **Signature:**
 ```javascript
-copyFrom(other: Quaternion): Quaternion;
+copyFrom(other: ReadOnlyQuaternion): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -16,5 +16,5 @@ the updated current quaternion
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `other` | `Quaternion` | defines the other quaternion |
+|  `other` | `ReadOnlyQuaternion` | defines the other quaternion |
 

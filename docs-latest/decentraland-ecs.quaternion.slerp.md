@@ -6,7 +6,7 @@ Interpolates between two quaternions
 
 **Signature:**
 ```javascript
-static Slerp(left: Quaternion, right: Quaternion, amount: number): Quaternion;
+static Slerp(left: ReadOnlyQuaternion, right: ReadOnlyQuaternion, amount: number): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -16,7 +16,7 @@ the new interpolated quaternion
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `left` | `Quaternion` | defines first quaternion |
-|  `right` | `Quaternion` | defines second quaternion |
+|  `left` | `ReadOnlyQuaternion` | defines first quaternion |
+|  `right` | `ReadOnlyQuaternion` | defines second quaternion |
 |  `amount` | `number` | defines the gradient to use |
 

@@ -6,13 +6,12 @@ Constructs a new instance of the [Entity](./decentraland-ecs.entity.md) class
 
 **Signature:**
 ```javascript
-constructor(_parent?: Entity | null, name?: string | undefined);
+constructor(name?: string | undefined);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `_parent` | `Entity | null` |  |
 |  `name` | `string | undefined` |  |
 

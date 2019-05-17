@@ -7,7 +7,6 @@
 |  Property | Access Modifier | Type | Description |
 |  --- | --- | --- | --- |
 |  [`src`](./decentraland-ecs.objshape.src.md) |  | `string` |  |
-|  [`tag`](./decentraland-ecs.objshape.tag.md) |  | `string` |  |
 
 ## Methods
 

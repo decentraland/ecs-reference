@@ -5,5 +5,5 @@
 
 **Signature:**
 ```javascript
-parent: Entity
+parent: IEntity
 ```

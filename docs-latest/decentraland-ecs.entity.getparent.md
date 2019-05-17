@@ -6,7 +6,7 @@ Gets the parent entity
 
 **Signature:**
 ```javascript
-getParent(): Entity | null;
+getParent(): IEntity | null;
 ```
-**Returns:** `Entity | null`
+**Returns:** `IEntity | null`
 

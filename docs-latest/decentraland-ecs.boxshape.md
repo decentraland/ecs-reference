@@ -2,9 +2,3 @@
 
 # BoxShape class
 
-## Properties
-
-|  Property | Access Modifier | Type | Description |
-|  --- | --- | --- | --- |
-|  [`tag`](./decentraland-ecs.boxshape.tag.md) |  | `string` |  |
-

@@ -8,7 +8,7 @@ Returns a function that can be called to remove the subscription.
 
 **Signature:**
 ```javascript
-subscribe(eventName: InputEventKind, fn: (e: PointerEvent) => void): () => void;
+subscribe(eventName: InputEventKind, fn: (e: LocalPointerEvent) => void): () => void;
 ```
 **Returns:** `() => void`
 
@@ -17,5 +17,5 @@ subscribe(eventName: InputEventKind, fn: (e: PointerEvent) => void): () => void;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  `eventName` | `InputEventKind` | The name of the event (see InputEventKind). |
-|  `fn` | `(e: PointerEvent) => void` | A callback function to be called when the event is triggered. |
+|  `fn` | `(e: LocalPointerEvent) => void` | A callback function to be called when the event is triggered. |
 

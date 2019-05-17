@@ -9,5 +9,6 @@ toJSON:
 ```
 **Returns:** `{
         uuid: string;
+        type: string | undefined;
     }`
 

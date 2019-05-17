@@ -13,7 +13,7 @@
 
 |  Method | Access Modifier | Returns | Description |
 |  --- | --- | --- | --- |
-|  [`constructor()`](./decentraland-ecs.input.constructor.md) |  |  | Constructs a new instance of the [Input](./decentraland-ecs.input.md) class |
+|  [`ensureInstance()`](./decentraland-ecs.input.ensureinstance.md) |  | `any` |  |
 |  [`subscribe(eventName, fn)`](./decentraland-ecs.input.subscribe.md) |  | `() => void` | Subscribes to an input event and triggers the provided callback.<p/>Returns a function that can be called to remove the subscription. |
 |  [`unsubscribe(eventName, fn)`](./decentraland-ecs.input.unsubscribe.md) |  | `void` | Removes an existing input event subscription. |
 

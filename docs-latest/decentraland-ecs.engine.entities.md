@@ -5,5 +5,5 @@
 
 **Signature:**
 ```javascript
-entities: Readonly<Record<string, Entity>>
+entities: Readonly<Record<string, IEntity>>
 ```

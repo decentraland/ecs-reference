@@ -6,7 +6,11 @@ Serializes Color3
 
 **Signature:**
 ```javascript
-toJSON(): string;
+toJSON:
 ```
-**Returns:** `string`
+**Returns:** `{
+        r: number;
+        g: number;
+        b: number;
+    }`
 

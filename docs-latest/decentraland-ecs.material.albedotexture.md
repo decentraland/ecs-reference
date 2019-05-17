@@ -6,5 +6,5 @@ Texture applied as material.
 
 **Signature:**
 ```javascript
-albedoTexture: string
+albedoTexture: Texture
 ```

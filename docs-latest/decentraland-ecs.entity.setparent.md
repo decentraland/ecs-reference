@@ -6,7 +6,7 @@ Sets the parent entity
 
 **Signature:**
 ```javascript
-setParent(entity: Entity): void;
+setParent(newParent: IEntity): void;
 ```
 **Returns:** `void`
 
@@ -14,5 +14,5 @@ setParent(entity: Entity): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `entity` | `Entity` |  |
+|  `newParent` | `IEntity` |  |
 

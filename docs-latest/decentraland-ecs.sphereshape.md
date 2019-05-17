@@ -2,9 +2,3 @@
 
 # SphereShape class
 
-## Properties
-
-|  Property | Access Modifier | Type | Description |
-|  --- | --- | --- | --- |
-|  [`tag`](./decentraland-ecs.sphereshape.tag.md) |  | `string` |  |
-

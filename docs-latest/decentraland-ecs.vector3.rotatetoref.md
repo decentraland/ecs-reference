@@ -6,14 +6,16 @@ Rotates current Vector3 based on the given quaternion, but applies the rotation 
 
 **Signature:**
 ```javascript
-rotateToRef(q: Quaternion, target: Vector3): void;
+rotateToRef(q: Quaternion, result: Vector3): Vector3;
 ```
-**Returns:** `void`
+**Returns:** `Vector3`
+
+the current Vector3
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  `q` | `Quaternion` | defines the Quaternion |
-|  `target` | `Vector3` | defines the target Vector3 |
+|  `result` | `Vector3` | defines the target Vector3 |
 

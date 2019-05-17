@@ -10,7 +10,7 @@ rotate(q: Quaternion): Vector3;
 ```
 **Returns:** `Vector3`
 
-the current updated Vector3
+the current Vector3
 
 ## Parameters
 

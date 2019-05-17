@@ -10,7 +10,6 @@
 |  [`position`](./decentraland-ecs.transform.position.md) |  | `Vector3` |  |
 |  [`rotation`](./decentraland-ecs.transform.rotation.md) |  | `Quaternion` |  |
 |  [`scale`](./decentraland-ecs.transform.scale.md) |  | `Vector3` |  |
-|  [`tag`](./decentraland-ecs.transform.tag.md) |  | `string` |  |
 
 ## Methods
 

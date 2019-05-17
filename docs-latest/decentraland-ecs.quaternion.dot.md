@@ -6,7 +6,7 @@ Returns the dot product (float) between the quaternions "left" and "right"
 
 **Signature:**
 ```javascript
-static Dot(left: Quaternion, right: Quaternion): number;
+static Dot(left: ReadOnlyQuaternion, right: ReadOnlyQuaternion): number;
 ```
 **Returns:** `number`
 
@@ -16,6 +16,6 @@ the dot product
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `left` | `Quaternion` | defines the left operand |
-|  `right` | `Quaternion` | defines the right operand |
+|  `left` | `ReadOnlyQuaternion` | defines the left operand |
+|  `right` | `ReadOnlyQuaternion` | defines the right operand |
 

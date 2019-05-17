@@ -5,9 +5,9 @@
 
 **Signature:**
 ```javascript
-disposeComponent(component: DisposableComponentLike): void;
+disposeComponent(component: DisposableComponentLike): boolean;
 ```
-**Returns:** `void`
+**Returns:** `boolean`
 
 ## Parameters
 

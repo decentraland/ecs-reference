@@ -6,5 +6,5 @@ Texture applied as opacity. Default: the same texture used in albedoTexture.
 
 **Signature:**
 ```javascript
-alphaTexture: string
+alphaTexture: Texture
 ```

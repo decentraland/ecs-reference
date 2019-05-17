@@ -6,8 +6,8 @@
 
 |  Property | Access Modifier | Type | Description |
 |  --- | --- | --- | --- |
-|  [`entity`](./decentraland-ecs.parentchanged.entity.md) |  | `Entity` |  |
-|  [`parent`](./decentraland-ecs.parentchanged.parent.md) |  | `Entity` |  |
+|  [`entity`](./decentraland-ecs.parentchanged.entity.md) |  | `IEntity` |  |
+|  [`parent`](./decentraland-ecs.parentchanged.parent.md) |  | `IEntity` |  |
 
 ## Methods
 

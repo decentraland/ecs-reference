@@ -6,7 +6,7 @@ Multiplies two quaternions
 
 **Signature:**
 ```javascript
-multiply(q1: Quaternion): Quaternion;
+multiply(q1: ReadOnlyQuaternion): Quaternion;
 ```
 **Returns:** `Quaternion`
 
@@ -16,5 +16,5 @@ a new quaternion set as the multiplication result of the current one with the gi
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `q1` | `Quaternion` | defines the second operand |
+|  `q1` | `ReadOnlyQuaternion` | defines the second operand |
 

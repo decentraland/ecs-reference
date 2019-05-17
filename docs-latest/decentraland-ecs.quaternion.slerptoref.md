@@ -6,7 +6,7 @@ Interpolates between two quaternions and stores it into a target quaternion
 
 **Signature:**
 ```javascript
-static SlerpToRef(left: Quaternion, right: Quaternion, amount: number, result: Quaternion): void;
+static SlerpToRef(left: ReadOnlyQuaternion, right: ReadOnlyQuaternion, amount: number, result: Quaternion): void;
 ```
 **Returns:** `void`
 
@@ -14,8 +14,8 @@ static SlerpToRef(left: Quaternion, right: Quaternion, amount: number, result: Q
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  `left` | `Quaternion` | defines first quaternion |
-|  `right` | `Quaternion` | defines second quaternion |
+|  `left` | `ReadOnlyQuaternion` | defines first quaternion |
+|  `right` | `ReadOnlyQuaternion` | defines second quaternion |
 |  `amount` | `number` | defines the gradient to use |
 |  `result` | `Quaternion` | defines the target quaternion |
 
