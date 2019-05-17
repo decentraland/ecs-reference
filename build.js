@@ -1,4 +1,4 @@
-var versionsToDocument = ["5.0"];
+var versionsToDocument = ["5.0", "6.0"];
 
 var { spawnSync } = require("child_process");
 var { writeFileSync } = require("fs");

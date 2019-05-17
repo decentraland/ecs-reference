@@ -1,0 +1,12 @@
+[Home](./index) &gt; [decentraland-ecs](./decentraland-ecs.md) &gt; [Gizmos](./decentraland-ecs.gizmos.md) &gt; [localReference](./decentraland-ecs.gizmos.localreference.md)
+
+# Gizmos.localReference property
+
+> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+
+Align the gizmos to match the local reference system
+
+**Signature:**
+```javascript
+localReference: boolean
+```
